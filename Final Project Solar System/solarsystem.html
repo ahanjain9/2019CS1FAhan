@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SUNNNNNN</title>
+    <style>
+   
+ body,html{
+   
+        height:100%;
+        width:100%;
+        background-color: black;
+        }
+    #sun{
+        width:600px;
+        height:200px;
+        position: absolute;
+        background: url('sun600.png') no-repeat center center;
+        background-size:contain;
+        left:600px;
+        top:250px
+       
+        
+        
+        }
+    #venus{
+        width:180px;
+        height:160px;
+        position: absolute;
+        background: url('venus.png') no-repeat center center;
+        background-size:contain;
+        left:500px;
+        top:200px;
+        z-index:100;
+    }   
+
+    #ring{
+        position:absolute;
+        border: 1px dashed white;
+        border-radius: 50%;
+        
+    }
+        
+    
+    .star{
+        background: url('whitestar.png') no-repeat center center;
+        background-size: contain;
+        position:absolute;
+        width:20px;
+        height:15px;
+    }
+    
+    #starWrapper{
+        height:100%;
+        width:100%;
+    }
+    
+    
+    </style>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+</head>
+<body>
+   <div id='starWrapper'></div>
+   <div id='sun'></div>
+    <div id='earth'></div>
+    <div id='venus'></div> 
+    <div id='ring'></div>
+    
+</body>
+<script src='motion.js'></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
