@@ -7,7 +7,7 @@ var starWrapper = $('#starWrapper');
 var cWidth = starWrapper.width();
 var cHeight = starWrapper.height();
 
-var numStars = 100; 
+var numStars = 1000; 
 
 for(var i=0; i<numStars ; i++){
     var xTarget = Math.floor(Math.random() * cWidth);
