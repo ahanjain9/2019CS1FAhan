@@ -47,8 +47,16 @@
         position:absolute;
         width:20px;
         height:15px;
+        animation: glow 1s ease-in-out infinite alternate;
     }
-    
+    @-webkit-keyframes glow {
+  from {
+    opacity: 0.5;
+  }
+  
+  to {
+    opacity: 4; 
+}
     #starWrapper{
         height:100%;
         width:100%;
