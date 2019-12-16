@@ -12,5 +12,10 @@ var numStars = 1000;
 for(var i=0; i<numStars ; i++){
     var xTarget = Math.floor(Math.random() * cWidth);
     var yTarget = Math.floor(Math.random() * cHeight);
- $('#starWrapper').append("<div class='star' style=top:" + yTarget + "px;left:" + xTarget + "px;></div>");
+    var glowNumber = Math.floor(Math.random() * 5);
+
+ $('#starWrapper').append("<div class='star'style=glow" + glowNumber + ";style=top:" + yTarget + "px;left:" + xTarget + "px;></div>");
 }
+
+
+    
