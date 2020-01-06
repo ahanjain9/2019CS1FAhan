@@ -1,10 +1,10 @@
-var diameter = 500 ; 
-TweenMax.to("#venus", 5 ,{
+var diameter = 400 ; 
+TweenMax.to("#venus", 4 ,{
 bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diameter},{x:diameter/2,y:diameter/2},{x:0,y:0}]}
 ,ease:Power0.easeNone,repeat:-1});
 
-var diameter = 500 ; 
-TweenMax.to("#earth", 5 ,{
+var diameter = 800 ; 
+TweenMax.to("#earth", 9 ,{
 bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diameter},{x:diameter/2,y:diameter/2},{x:0,y:0}]}
 ,ease:Power0.easeNone,repeat:-1});
 
