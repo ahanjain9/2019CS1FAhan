@@ -27,7 +27,7 @@
         background: url('venus.png') no-repeat center center;
         background-size:contain;
         left:600px;
-        top:150px;
+        top:170px;
         z-index:100;
     }   
     #earth{
@@ -38,10 +38,19 @@
         background-size: contain;
         z-index: 100;
         left:580px;
-        top:10px;
+        top:-30px;
 
     }
-
+    #moon{
+        width:120px;
+        height:160px;
+        position:absolute;
+        background: url('MOON.png') no-repeat center center;
+        background-size: contain;
+        z-index: 100;
+        left:30px;
+        top:-155px;
+    }
     #ring{
         position:absolute;
         border: 1px dashed white;
@@ -127,7 +136,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 </head>
 <body>
-   <div id='earth'></div>
+   <div id='earth'>
+        <div id='moon'></div>
+    </div>
    <div id='starWrapper'></div>
    <div id='sun'></div>
     <div id='venus'></div> 
