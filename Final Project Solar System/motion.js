@@ -1,3 +1,4 @@
+
 var diameter = 400 ; 
 TweenMax.to("#venus", 3,{
 bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diameter},{x:diameter/2,y:diameter/2},{x:0,y:0}]}
@@ -10,6 +11,11 @@ bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diam
 
 diameter = 300 ; 
 TweenMax.to("#moon", 1 , {
+bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diameter},{x:diameter/2,y:diameter/2},{x:0,y:0}]}
+,ease:Power0.easeNone,repeat:-1});
+
+diameter = 1500; 
+TweenMax.to("#pluto", 100,{
 bezier:{curviness:1.5,values:[{x:0,y:0},{x:-diameter/2,y:diameter/2},{x:0,y:diameter},{x:diameter/2,y:diameter/2},{x:0,y:0}]}
 ,ease:Power0.easeNone,repeat:-1});
 

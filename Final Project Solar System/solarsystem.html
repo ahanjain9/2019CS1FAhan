@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html>
 <head>
     <title>SUNNNNNN</title>
@@ -16,29 +16,42 @@
         position: absolute;
         background: url('sun600.png') no-repeat center center;
         background-size:contain;
-        left:400px;
-        top:350px
+        left:450px;
+        top:500px
        
          }
+    #pluto{
+        width:50px;
+        height:160px;
+        position: absolute;
+        background: url('pluto.png') no-repeat center center;
+        background-size:contain;
+        left:750px;
+        top: -125px;
+        z-index:100;
+        
+
+
+    }
     #venus{
-        width:180px;
+        width:130px;
         height:160px;
         position: absolute;
         background: url('venus.png') no-repeat center center;
         background-size:contain;
-        left:600px;
-        top:170px;
+        left:670px;
+        top:320px;
         z-index:100;
     }   
     #earth{
-        width: 180px;
+        width: 120px;
         height:160px;
         position:absolute;
         background: url('Earth600.png') no-repeat center center;
         background-size: contain;
         z-index: 100;
-        left:580px;
-        top:-30px;
+        left:630px;
+        top:30px;
 
     }
     #moon{
@@ -48,7 +61,7 @@
         background: url('MOON.png') no-repeat center center;
         background-size: contain;
         z-index: 100;
-        left:30px;
+        left:5px;
         top:-155px;
     }
     #ring{
@@ -139,11 +152,11 @@
    <div id='earth'>
         <div id='moon'></div>
     </div>
-   <div id='starWrapper'></div>
-   <div id='sun'></div>
-    <div id='venus'></div> 
-    <div id='ring'></div>
-    
+    <div id='starWrapper'></div>
+    <div id='sun'></div>
+    <div id='pluto'></div>
+    <div id='venus'></div>   
+    <div id='ring'></div>   
 </body>
 <script src='motion.js'></script>
 </html>
